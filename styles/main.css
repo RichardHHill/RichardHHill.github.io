@@ -1,8 +1,25 @@
 @charset "UTF-8";
 
+img {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
 
 .logo-footer img {
   width: 50px;
   margin: 10px;
+}
+
+.carousel-control-prev:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, transparent 100%);
+  background-repeat: repeat-x;
+}
+
+.carousel-control-next:hover {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0px, transparent 100%);
+  background-repeat: repeat-x;
 }
 
