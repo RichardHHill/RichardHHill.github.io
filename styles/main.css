@@ -13,6 +13,16 @@ video {
   margin: 10px;
 }
 
+.carousel {
+  border-style: ridge;
+  padding: 0 50px;
+}
+
+.left-col {
+  border-style: ridge;
+  border-width: 0 3px 0 0;
+}
+
 .carousel-control-prev:hover {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, transparent 100%);
   background-repeat: repeat-x;
@@ -23,3 +33,42 @@ video {
   background-repeat: repeat-x;
 }
 
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-item > :nth-child(2) {
+  min-height: 1000px;
+}
+
+.slant-header {
+  position: relative;
+  height: 320px;
+}
+
+.slant-div, .slant-header p, .slant-header h1 {
+  position: absolute;
+  top: -5%;
+  width: 100%;
+  height: inherit;
+}
+
+.slant-header p, .slant-header h1 {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0 20%;
+  text-align: center;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slant-header p {
+  transform: translateY(100%);
+}
