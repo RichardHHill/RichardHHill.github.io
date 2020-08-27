@@ -4,9 +4,9 @@ $(document).ready(function() {
 
     function toggleSlide(x) {
         if (x.matches) { // If media query matches
-            ptoggle.classList.toggle("slide");
+            ptoggle.classList.remove("slide");
         } else{
-            ptoggle.classList.toggle("slide");
+            ptoggle.classList.add("slide");
         }
     }
 
