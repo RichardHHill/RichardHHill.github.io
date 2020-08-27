@@ -8,8 +8,17 @@ video {
   width: 100%;
 }
 
-.logo-footer img {
+.project-logos img {
   width: 50px;
+  margin: 10px;
+}
+
+.footer-logos {
+  text-align: center;
+}
+
+.footer-logos img {
+  width: 25px;
   margin: 10px;
 }
 
